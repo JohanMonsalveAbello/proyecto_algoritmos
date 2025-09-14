@@ -1,0 +1,82 @@
+{
+  "1": {
+    "Nombre": "Bandeja Paisa",
+    "Precio": "20000"
+  },
+  "2": {
+    "Nombre": "Ajiaco Santafereño",
+    "Precio": "18000"
+  },
+  "3": {
+    "Nombre": "Sancocho de Gallina",
+    "Precio": "22000"
+  },
+  "4": {
+    "Nombre": "Lechona Tolimense",
+    "Precio": "25000"
+  },
+  "5": {
+    "Nombre": "Arepa Antioqueña",
+    "Precio": "5000"
+  },
+  "6": {
+    "Nombre": "Tamales Tolimenses",
+    "Precio": "12000"
+  },
+  "7": {
+    "Nombre": "Changua",
+    "Precio": "8000"
+  },
+  "8": {
+    "Nombre": "Arroz con Coco y Pescado Frito",
+    "Precio": "24000"
+  },
+  "9": {
+    "Nombre": "Empanadas Colombianas",
+    "Precio": "4000"
+  },
+  "10": {
+    "Nombre": "Posta Cartagenera",
+    "Precio": "26000"
+  },
+  "11": {
+    "Nombre": "Pandebono",
+    "Precio": "3000"
+  },
+  "12": {
+    "Nombre": "Sobrebarriga en Salsa",
+    "Precio": "23000"
+  },
+  "13": {
+    "Nombre": "Mote de Queso",
+    "Precio": "15000"
+  },
+  "14": {
+    "Nombre": "Hormiga Culona",
+    "Precio": "10000"
+  },
+  "15": {
+    "Nombre": "Arepa de Huevo",
+    "Precio": "6000"
+  },
+  "16": {
+    "Nombre": "Cazuela de Mariscos",
+    "Precio": "28000"
+  },
+  "17": {
+    "Nombre": "Fritanga Cundiboyacense",
+    "Precio": "20000"
+  },
+  "18": {
+    "Nombre": "Carne a la Llanera (Mamona)",
+    "Precio": "27000"
+  },
+  "19": {
+    "Nombre": "Caldo de Costilla",
+    "Precio": "9000"
+  },
+  "20": {
+    "Nombre": "Chicharrón con Arepa",
+    "Precio": "11000"
+  }
+}
