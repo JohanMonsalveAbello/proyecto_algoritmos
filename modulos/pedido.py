@@ -35,7 +35,7 @@ def facturacion(ops, eleccion,precio):
 
 
 def pedido(opcion):
-    with open("restaurante_proyecto/blobs/platos/platos.json", "r", encoding="utf-8") as archivo:
+    with open("blobs/platos/platos.json", "r", encoding="utf-8") as archivo:
         data = json.load(archivo)
 
     while True:
@@ -64,9 +64,9 @@ def pedido(opcion):
                     opcion = input("Digite su opción: ")
                 elif eleccionagregar == 2:
                     print(" Pedido finalizado")
-                    with open(f"restaurante_proyecto/blobs/facturas/{nombre}_{fecha_hora}.json", "w", encoding="utf-8") as archivo:
+                    with open(f"blobs/facturas/{nombre}_{fecha_hora}.json", "w", encoding="utf-8") as archivo:
                         json.dump(pedido_cliente, archivo, indent=4,)
-                    with open(f"restaurante_proyecto/blobs/facturas/{nombre}_{fecha_hora}.json", "r", encoding="utf-8") as archivo:
+                    with open(f"blobs/facturas/{nombre}_{fecha_hora}.json", "r", encoding="utf-8") as archivo:
                         mostrar = json.load(archivo)
                         for clave,valor in mostrar.items():
                             print(clave,valor)

@@ -12,7 +12,7 @@ def menu():
 
 
         if decision == 1:
-            with open("restaurante_proyecto/blobs/platos/platos.json", "r", encoding = "utf-8" ) as documento:
+            with open("blobs\platos\platos.json", "r", encoding = "utf-8" ) as documento:
                 menu_casa = json.load(documento)
             for clave,producto in menu_casa.items():
                 print(f"{clave}.  {producto['Nombre']} {producto['Precio']}")
